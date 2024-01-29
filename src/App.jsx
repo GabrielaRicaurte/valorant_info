@@ -1,17 +1,26 @@
-import { useFetch } from './hooks/useFetch'
 import './App.css'
+import { Siderbar } from './layouts/SiderBar'
+import { Header } from './components/Header'
+
+// import { fetchData } from './fetchData'
+
+// const apiData = fetchData("https://valorant-api.com/v1/agents");
 
 function App() {
 
-  const { data } = useFetch("https://valorant-api.com/v1/agents");
+  // const { data } = useFetch("https://valorant-api.com/v1/agents");
 
-  // console.log(data)
-
+  // const data = apiData.read();
+  
   return (
     <>
-      <ul>
-        { console.log(data)}
-      </ul>
+        {/* {data?.map((item) => (
+          <li key={item.displayName}>{item.displayName}</li>
+        ))} */}
+
+        {/* <Siderbar /> */}
+        <Header />
+        
     </>
   )
 }
