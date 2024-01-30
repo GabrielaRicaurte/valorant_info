@@ -1,6 +1,7 @@
 import './App.css'
 import { Siderbar } from './layouts/SiderBar'
 import { Header } from './components/Header'
+import { Section } from './components/Section'
 
 // import { fetchData } from './fetchData'
 
@@ -18,8 +19,9 @@ function App() {
           <li key={item.displayName}>{item.displayName}</li>
         ))} */}
 
-        {/* <Siderbar /> */}
         <Header />
+        <Section />
+
         
     </>
   )
