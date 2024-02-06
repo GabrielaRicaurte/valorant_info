@@ -1,5 +1,5 @@
-import { createBrowserRouter } from 'react-router-dom'
-import Agents from '../components/Agents';
+import { createBrowserRouter } from 'react-router-dom';
+import { Agents } from './Agents';
 import App from '../layouts/App';
 
 const router = createBrowserRouter([

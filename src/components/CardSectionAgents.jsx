@@ -4,7 +4,7 @@ import 'animate.css';
 export function CardSectionAgents() {
     return (
         <>
-            <div className="w-full h-[70vh] mt-48 bg-cover bg-center flex items-center" style={{ backgroundImage: `url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaf4dae47b30c2172/5fd2d140a84f233eaf61091a/VALORANT_Logo_V.jpg')` }}>
+            <div className="w-full h-[70vh] bg-cover bg-center flex items-center" style={{ backgroundImage: `url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaf4dae47b30c2172/5fd2d140a84f233eaf61091a/VALORANT_Logo_V.jpg')` }}>
                 <div className="w-full flex">
                     <div className="mb-5 z-30">
                         <img src="https://playvalorant.com/static/agents-group-31d7ce5a3637e45d8b25d2fd03159e6c.png" alt="img" className="mx-10 h-[100vh]" />

@@ -5,7 +5,8 @@ export function CardSectionMaps() {
         <>
             <div className="h-[80vh] w-full bg-no-repeat flex items-center justify-end bg-[#ece8e1]" style={{ backgroundImage: `url('https://playvalorant.com/assets/images/background-sprite.png')` }}>
                 <div className="flex items-center flex-col z-20 w-6/12 relative mx-10">
-                    <h1 className="text-7xl uppercase text-black font-anton font-bold cursor-pointer duration-700 ease-in-out select-none">YOUR MAPS</h1>                    <Link to={'/maps'}>
+                    <h1 className="text-7xl uppercase text-black font-anton font-bold cursor-pointer duration-700 ease-in-out select-none">YOUR MAPS</h1>                   
+                     <Link to={'/maps'}>
                         <p className="text-black underline duration-500 font-semibold mt-10 rounded-lg hover:bg-gray-600 hover:no-underline hover:text-white hover:p-3">FIGHT AROUND THE WORLD</p>
                     </Link>
                 </div>
