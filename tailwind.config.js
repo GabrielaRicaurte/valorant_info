@@ -6,11 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        oswald: ["Oswald", "sans-serif"],
+        bebas: ["Bebas Neue", "cursive"]
+      }
     },
     
-    fontFamily: {
-      'anton': ['Anton', 'sans-serif']
-    },
     
   },
   plugins: [],

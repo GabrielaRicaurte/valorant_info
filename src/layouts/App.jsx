@@ -1,6 +1,9 @@
 import { Siderbar } from './SiderBar'
 import { Header } from '../components/Header'
 import { Section } from '../components/Section'
+import { Outlet } from 'react-router-dom'
+import { NavBar } from '../components/NavBar'
+
 
 // import { fetchData } from './fetchData'
 
@@ -17,10 +20,12 @@ function App() {
         {/* {data?.map((item) => (
           <li key={item.displayName}>{item.displayName}</li>
         ))} */}
+        <NavBar />
 
-        <Header title={"VALORANT INFO"} />
-        <Section />
+        {/* <Header title={"VALORANT INFO"} /> */}
+        {/* <Section /> */}
 
+        <Outlet />
         
     </>
   )
