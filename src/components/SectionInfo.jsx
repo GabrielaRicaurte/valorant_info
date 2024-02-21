@@ -1,7 +1,7 @@
 export function SectionInfo() {
     return (
         <>
-            <div className="h-[100vh] p-10"> 
+            <div className="h-[100vh] p-10">
                 <div className="h-[500px] border-x border-black p-10 flex gap-x-3">
                     <div className="md:w-6/12 flex flex-col justify-center h-full px-4">
                         <h1 className="text-6xl font-extrabold uppercase mb-3 text-[#0f1923] font-bebas">What is Valorant?</h1>
