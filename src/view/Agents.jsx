@@ -1,5 +1,5 @@
 import { fetchData } from "../fetchData";
-import { imprimir } from "../assets/js/agents";
+import { print } from "../assets/js/agents";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
@@ -23,7 +23,7 @@ export function Agents() {
                         }}>
                             {data?.map((item) => (
                                 <SplideSlide className="text-center">
-                                    <button className='px-3 py-2 w-full rounded hover:text-white duration-300 hover:scale-150 uppercase font-oswald text-2xl hover:bg-[#111]' key={item.displayName} onClick={() => imprimir(item.uuid)}>
+                                    <button className='px-3 py-2 w-full rounded hover:text-white duration-300 hover:scale-150 uppercase font-oswald text-2xl hover:bg-[#111]' key={item.displayName} onClick={() => print(item.uuid)}>
                                         {item.displayName}
                                     </button>
                                 </SplideSlide>
@@ -32,7 +32,7 @@ export function Agents() {
 
                     </div>
 
-                    <div id="mostrar" className="md:w-10/12 flex justify-center items-center text-white h-full bg-[#111111bb] px-5">
+                    <div id="mostrar" className="md:w-10/12 flex justify-center items-center text-white h-full bg-[#111111bb] px-6">
                         <div className="mb-5 z-30">
                             <img src="https://playvalorant.com/static/agents-group-31d7ce5a3637e45d8b25d2fd03159e6c.png" alt="img" className="mx-10 h-[80vh]" />
                         </div>
