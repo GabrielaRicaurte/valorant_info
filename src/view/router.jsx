@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import { Agents } from './Agents';
 import App from '../layouts/App';
 import { Section } from '../components/Section';
+import { Maps } from './Maps';
 
 const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
             {
                 path: '/agents',
                 element: <Agents />,
+            },
+            {
+                path: '/maps',
+                element: <Maps />,
             }
         ],
     },
